@@ -1,0 +1,50 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(219, 233, 219);
+}
+div.result{
+    padding: 10px;
+}
+tbody{
+    align-items: center;
+}
+
+button{
+    color: rgb(43, 153, 153);
+    margin: 5px;
+    font-size: 15pt;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    font-weight: bold;
+    border-color: rgb(233, 191, 191);
+}
+
+#keypad {
+    height: 50px;
+}
+div.result{
+    height: 20px;
+    width: fit-content;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+#container {
+    align-content: flex-end;
+    border: 50px;
+    width: 50pt;
+    height: 500px;
+    margin: 60px auto;
+
+}
+
+div.calculator{
+    padding-top: 15pt;
+    padding-left: 10pt;
+    padding-right: 10pt;
+    justify-items: center;
+    width: 180pt;
+    height: 320pt;
+    background-color: rgb(121, 211, 219);
+}

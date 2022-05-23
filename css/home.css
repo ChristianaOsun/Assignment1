@@ -1,0 +1,198 @@
+body{
+    display: flexbox;
+}
+div.login-button{
+    align-items: center;
+}
+input[type=ftext], input[type=fpassword] {
+    width:100%;
+    padding: 2px;
+    display: inline-block;
+    border: 1.0px solid black;
+    background-color: rgb(255, 255, 255);
+}
+button{
+    background-color: rgb(196, 150, 185);
+    cursor: pointer;
+    margin:15px 0;
+    color: rgb(10, 10, 10);
+    text-align: center;
+}
+
+div.login-container{
+    border: 2px solid rgb(145, 191, 197);
+    padding-left: 20px;
+    width: 300px;
+    height:370px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0;
+}
+.wrapper {
+    max-width: 200%;
+    border-top: 2px solid black; 
+    border-bottom: 3px solid black;
+    text-align: justify;
+}
+.navigation-bar{
+    display: inline-flex;
+    list-style-type: none;
+    position: relative;
+    text-align: center;
+}
+.navigation-bar:hover{
+    color: aqua;
+}
+#navbar {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    margin: 12px auto;
+}    
+
+.homepage-logo{
+    padding: 5px;
+}
+
+.home-container {
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 250px;
+    text-align: center;
+    background-image: url(./flowers.jpg);
+    image-rendering: fade;
+    opacity: 0.01px;
+    
+}
+
+#login-container{
+    text-align: center;
+    background-color: rgb(231, 218, 225);
+    height: 300px;
+    width: 300px;
+    padding-left: 20px;
+    margin: 10% 20% ;
+}
+
+h1.login{
+    letter-spacing: 0.2em;
+    line-height: 0.1em;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200px;
+    padding-top: 30px;
+}
+div.login-container{
+    align-items: center;
+    text-align: justify;
+    line-height: 1.5em;
+    
+}
+div.login-form{
+    align-self: center;
+}
+strong{
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+label.login-password, label.login-username{
+    width: 220px;
+    height: 12px;
+}
+
+/*Register page*/
+.form{
+    padding: 30px;
+    text-align: center;
+}
+
+label{
+    width: 100%;
+    background-color: rgb(231, 227, 235);
+    padding: 10px;
+    display: block;
+    text-align: justify;
+}
+input[type=text], input[type=password],
+input[type=email], input[type=tel] {
+    width:100%;
+    padding: 8px;
+    display: block;
+    border: 1.5px solid black;
+    background-color: rgb(218, 224, 230);
+}
+
+select{
+    width:105%;
+    padding: 8px;
+    display: block;
+    border: 1.5px solid black;
+    background-color: rgb(218, 224, 230);
+}
+hr{
+    border: 1px solid black;
+}
+
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    text-align: justify;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+h3{
+    font-size: 16px;
+    text-align: justify;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.register-button{
+    background-color: rgb(196, 150, 185);
+    cursor: pointer;
+    margin:15px 0;
+    color: rgb(10, 10, 10);
+    text-align: center;
+}
+a{
+    color: rgb(127, 31, 131);
+}
+strong:hover{
+    color: blueviolet;
+}
+p{
+    text-align: center;
+}
+
+div.form{
+    background-color: rgb(227, 242, 243);
+    width: 350px;
+    border: 2px solid black;
+    justify-items: center;
+}
+
+/*INDEX PAGE*/
+h1{
+    font-size: 50px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+h3{
+    font-size: 40px;
+    font-style: oblique;
+    text-align: center;
+    padding-top: 0px;
+}
+h6{
+    font-size: medium;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}

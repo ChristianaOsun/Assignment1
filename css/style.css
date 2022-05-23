@@ -1,0 +1,36 @@
+.header{
+    width: 75px;
+    height: 75px;
+    border: 2px;
+    padding: 0.5em;
+}
+.social-icon{
+    width: 25px;
+    height:25px;
+}
+.head-container{
+    font-size: 12px;
+    text-align: center;
+    line-height: 1px;
+   }
+.container{
+    text-align: center;
+}
+
+h1{
+    color:rgb(31, 5, 24);
+    text-shadow: 300px;
+    font-weight: 100px;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+img.header{
+    border-radius: 60px;
+}
+div.container {
+    background-color: rgb(255, 255, 255);
+    padding: 5pt;
+    padding-bottom: 10pt;
+}
+
